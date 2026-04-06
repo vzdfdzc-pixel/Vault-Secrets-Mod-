@@ -10,4 +10,4 @@ endif()
 
 add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
 target_link_libraries(VaultSecretsMod geode-sdk)
-create_geode_file(VaultSecretsMod)
+setup_geode_mod(VaultSecretsMod)
