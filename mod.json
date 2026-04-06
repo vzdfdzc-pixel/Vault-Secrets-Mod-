@@ -1,0 +1,11 @@
+{
+  "geode": "5.5.3",
+  "gd": {
+    "android": "2.208"
+  },
+  "id": "vzdfdzc-pixel.vaultcodes",
+  "name": "Vault Codes",
+  "version": "v1.0.0",
+  "developer": "vzdfdzc-pixel",
+  "description": "Muestra todos los códigos de las Vaults de GD."
+}
