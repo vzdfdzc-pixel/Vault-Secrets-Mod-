@@ -35,7 +35,7 @@ static std::vector<VaultEntry> getVaults() {
 }
 
 // ── Popup de códigos ───────────────────────────────────────────────
-class VaultPopup : public CCLayerColor, public CCTouchDelegate {
+class VaultPopup : public CCLayerColor {
     static inline const float W = 340;
     static inline const float H = 280;
 
