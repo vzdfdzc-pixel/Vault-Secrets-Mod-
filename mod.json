@@ -5,7 +5,26 @@
   },
   "id": "vzdfdzc-pixel.vaultcodes",
   "name": "Vault Codes",
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "developer": "vzdfdzc-pixel",
-  "description": "Muestra todos los códigos de las Vaults de GD."
+  "description": "Muestra todos los códigos de las Vaults de GD.",
+  "settings": {
+    "show-where": {
+      "name": "Mostrar botón en",
+      "description": "Dónde aparece el botón de Vault Codes",
+      "type": "string",
+      "default": "everywhere",
+      "one-of": ["everywhere", "menu-only", "levels-only"]
+    },
+    "btn-x": {
+      "name": "Posición X del botón",
+      "type": "float",
+      "default": 0.95
+    },
+    "btn-y": {
+      "name": "Posición Y del botón",
+      "type": "float",
+      "default": 0.5
+    }
+  }
 }
